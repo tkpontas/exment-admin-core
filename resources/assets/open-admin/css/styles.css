@@ -12240,14 +12240,15 @@ textarea.form-control-lg {
   font-family: 'BIZ UDPGothic';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/biz-udpgothic-v16-japanese-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/biz-udpgothic-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* biz-udpgothic-700 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'BIZ UDPGothic';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/biz-udpgothic-v16-japanese-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/biz-udpgothic-v16-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 @font-face {
   font-family: "Open Sans";
@@ -12299,7 +12300,7 @@ html {
 body {
   min-height: 100%;
   height: 100%;
-  font-family: "BIZ UDPGothic","Open Sans", sans-serif !important;
+  font-family: "BIZ UDPGothic", "Open Sans", sans-serif !important;
   background-color: var(--main-bg);
 }
 
